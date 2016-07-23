@@ -1,6 +1,6 @@
 #!/usr/bin/awk -f
 #
-# Copyright (c) 1995-2016 Cyrille Lefevre (Cyrille.Lefevre@laposte.net). All rights reserved.
+# Copyright (c) 2016 Cyrille Lefevre (Cyrille.Lefevre@laposte.net). All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
