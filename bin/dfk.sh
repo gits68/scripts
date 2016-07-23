@@ -1,5 +1,5 @@
-#!/bin/bash
-#
+#!/bin/sh
+# -*- ksh -*-
 # Copyright (c) 1995-2016 Cyrille Lefevre (Cyrille.Lefevre@laposte.net). All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
