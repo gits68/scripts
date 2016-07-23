@@ -1,0 +1,17 @@
+#!/bin/echo error: only source
+
+debug
+check /usr/local/bin/su.sh "-c" ".*"
+subst s|.* "-c" "\(.*\)"|\1|
+check "pwd"
+check "/usr/local/sbin/wmips(.sh)?" ("-ef?"|"-f?p" "[0-9]+"|"-f?u" "[[:alnum:]][-[:alnum:]_]+")
+path+ /cygdrive/c/windows/system32
+check "/usr/local/bin/Peu(ControleEtat|Arret|Dem)Module.sh"( "-t")? "-m" "[[:alnum:]][-[:alnum:]_]+"
+check "id"( "-.+")?
+path= /usr/bin
+check export -p
+path- /root
+precmd id -un; id -Gn
+#check .*
+
+# eof
